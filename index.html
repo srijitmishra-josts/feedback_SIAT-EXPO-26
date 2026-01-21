@@ -75,7 +75,8 @@
     .logo {
       width: clamp(140px, 40vw, 200px);
       height: auto;
-      margin-bottom: 20px;
+      display: block;
+      margin: 0 auto 25px auto;
       filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
     }
 
@@ -313,7 +314,6 @@
   <div class="container">
     <!-- Header -->
     <div class="header">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==" alt="JOSTS Logo" class="logo" id="mainLogo">
       <div class="welcome-badge">✨ SIAT EXPO 2026</div>
       <h1 class="main-title">Welcome to Our Stall</h1>
       <p class="subtitle">We're excited to have you here!</p>
@@ -321,13 +321,15 @@
 
     <!-- Main Card -->
     <div class="card">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==" alt="JOSTS Logo" class="logo" id="mainLogo">
+      
       <div class="card-header">
         <h2>Visitor Information & Feedback</h2>
         <p>Your experience matters to us. Please share your valuable feedback!</p>
       </div>
 
       <div class="stall-info">
-        📍 Visit us at Stall 271 & 280
+        Stall 271 & 280
       </div>
 
       <button class="feedback-btn" onclick="goToFeedback()">
